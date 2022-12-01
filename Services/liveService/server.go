@@ -128,7 +128,7 @@ func main() {
 	})
 	// router.Run("localhost:" + getenv("PORT", "9000"))
 	// router.Run("44.201.87.128:5001")
-	router.Run("localhost:5001")
+	router.Run("localhost:80")
 }
 
 func getenv(key, fallback string) string {
