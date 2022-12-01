@@ -127,7 +127,7 @@ func main() {
 		wshandler(c.Writer, c.Request, socket)
 	})
 	// router.Run("localhost:" + getenv("PORT", "9000"))
-	router.Run("localhost:5001")
+	router.Run("44.201.87.128:5001")
 }
 
 func getenv(key, fallback string) string {
