@@ -18,7 +18,7 @@ const docTemplate =
       "description": "Authentication token should start with Bearer [space] token || example > Bearer eyJhbGciOiJIUzI1NiIsInR5.....",
       "version": "1.0.0"
     },
-    "host": "44.201.87.128:5000",
+    "host": "http://44.201.87.128:5000",
     "basePath": "/",
     "schemes": [
       "http",
@@ -1044,8 +1044,8 @@ const docTemplate =
   
         
   
-  
-  
+      }
+
   
   
   
